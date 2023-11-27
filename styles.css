@@ -1,0 +1,79 @@
+body{
+    margin:0;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.post{
+    background: white;
+    width:500px;
+    height:670px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+.user {
+    display: flex;
+    height: 50px;
+    width: 500px;
+    margin: 8px 0 -20px 21px;
+    
+}
+
+.profilepicture {
+    max-width: 45px;
+    border-radius: 50px;
+    margin-top: 5px;
+}
+
+.user h5 {
+   margin: 10px 0 0 10px;
+}
+
+.user p {
+    margin: 26px -30px 0 -66px;
+}
+
+.user i{
+    margin: 30px 0 0 210px;
+}
+
+.image img{
+    width: 500px;
+    height: 300px;
+    max-width: 500px;
+    margin-top: 40px;
+}
+
+.icons{
+    width: 500px;
+    height: 50px;
+    display: inline-block;
+    margin: 17px 0 0 10px;
+}
+
+.bookmark {
+    display: flex;
+    margin: -8px 36px 0 0;
+    flex-direction: row-reverse;
+}
+
+.caption  {
+    display:flex;
+    flex-direction: column;
+    text-align: justify;
+    margin: 6px;
+    padding-left: 10px;
+    padding-right: 29px;
+}
+
+.like {
+    margin:0px;
+}
+
+
+
+
